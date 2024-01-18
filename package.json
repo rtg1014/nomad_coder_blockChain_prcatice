@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build":"tsc"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/rtg1014/nomad_coder_blockChain_prcatice#readme",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
