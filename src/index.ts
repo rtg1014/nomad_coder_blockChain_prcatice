@@ -1,8 +1,9 @@
-const hello = ()=> 'hi'
+import { init, exit } from "myPackage";
 
-class Block {
-    constructor(private data:string){}
-    static hello(){
-        return "안녕!"
-    }
-}
+init({
+    urls:"true"
+})
+
+exit(1)
+
+localStorage.clear()
