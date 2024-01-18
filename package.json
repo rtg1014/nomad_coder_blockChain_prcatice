@@ -1,0 +1,22 @@
+{
+  "name": "nomad_coder_blockchain_prcatice",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtg1014/nomad_coder_blockChain_prcatice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtg1014/nomad_coder_blockChain_prcatice/issues"
+  },
+  "homepage": "https://github.com/rtg1014/nomad_coder_blockChain_prcatice#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
